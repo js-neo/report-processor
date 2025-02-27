@@ -3,7 +3,7 @@ import {
     getAllReports,
     getReportsByUser,
     getReportsByPeriod
-} from '../controllers/reportController.js';
+} from '../controllers/reportController.ts';
 
 const router = express.Router();
 
